@@ -177,3 +177,47 @@ p {
   justify-content: center;
   padding: 40px 0px 0px 0px;
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.dropdown-menu {
+  background-color: #494949; 
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:hover {
+  background-color: #494949;
+  color: rgb(243, 90, 8);
+}
+.dropdown-menu .dropdown-item {
+  padding: 10px 20px;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #494949;
+  color: rgb(243, 90, 8);
+}
+@media only screen and (max-width: 768px) {
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .midPage button {
+    width: 100%;
+  }
+  #topNav button {
+    background-color: #494949;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}
